@@ -14,10 +14,16 @@ def table(nb, max=10):
 
 """fonction contrôle de la primalité"""
 def isPremier(monNombre):
-    i = 2
-    while i < ((monNombre+1)//2):
-        if monNombre % i == 0:
+    j = 1 # ou 0?
+    i = t.[j]
+    #je prend chacune des valeurs de mon tableau pour vérifier la primalité
+    while i < ((monNombre+1)//dernier nombre premier de ma liste):	# définir la limite jusqu'à laquelle il est nécessaire de rechercher la division entière
+        if monNombre % i == 0:		# 
             return False
-        i += 1
+        j += 1
+        if j <= lenght(t):
+            i = t.[j]
+        else
+            i += 2				# utiiser un dénominateur premier: en utilisant mon tableau, puis quand mon tableau complètement utilisé, utiliser le +2
     return True
 

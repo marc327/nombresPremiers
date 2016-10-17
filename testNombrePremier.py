@@ -9,6 +9,11 @@ import package.functions
 import time
 
 start_time = time.time()
+
+#tableau de nombres premiers
+    #lecture du tableau des nombres premies
+    #attribution des nombres premiers à une variable
+
 #boucle sur un groupe d'éléments
 i = 1000000001	# doit être un nombre impair
 while i < 1000000182 :

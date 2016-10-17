@@ -11,11 +11,16 @@ import time
 start_time = time.time()
 
 #boucle sur un groupe d'éléments
-i = 1000000001	# doit être un nombre impair
-while i < 1000000182 :
+mesNombresPremiers = ""
+i = 3	# doit être un nombre impair
+while i < 1000001 :
     if package.functions.isPremier(i) == True :
-        print(i)
+        mesNombresPremiers = mesNombresPremiers + str(i) + ";"
     i += 2
+    # stocker les nombres premiers dans un fichier
+    fichier = open("nombresPremiers_2_999997.txt", "w") 
+    fichier.write(mesNombresPremiers)        #Écrit la valeur de la variable a dans le fichier
+    fichier.close()
 interval = time.time() - start_time
 print('temps en secondes: ', interval)
 # On met le programme en pause pour éviter qu'il ne se referme (Windows)
