@@ -11,13 +11,15 @@ import time
 start_time = time.time()
 
 #tableau de nombres premiers
-    #lecture du tableau des nombres premies
-    #attribution des nombres premiers à une variable
+#lecture du tableau des nombres premies
+tableauNombres = package.functions.lireMonFichier("stockageNombres/nombresPremiers_2_997.txt")
+print (tableauNombres)
+
 
 #boucle sur un groupe d'éléments
 i = 1000000001	# doit être un nombre impair
 while i < 1000000182 :
-    if package.functions.isPremier(i) == True :
+    if package.functions.isPremier(i, tableauNombres) == True :
         print(i)
     i += 2
 interval = time.time() - start_time
