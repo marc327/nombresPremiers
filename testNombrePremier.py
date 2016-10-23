@@ -12,13 +12,13 @@ start_time = time.time()
 
 #tableau de nombres premiers
 #lecture du tableau des nombres premies
-tableauNombres = package.functions.lireMonFichier("stockageNombres/nombresPremiers_2_997.txt")
-print (tableauNombres)
+tableauNombres = package.functions.lireMonFichier("stockageNombres/nombresPremiers_2_999983.txt")
+#print (tableauNombres)
 
 
 #boucle sur un groupe d'éléments
-i = 1000000001	# doit être un nombre impair
-while i < 1000000182 :
+i = 100000000000001 #1000000001	# doit être un nombre impair
+while i < 100000000000101 : #1000000182 :
     if package.functions.isPremier(i, tableauNombres) == True :
         print(i)
     i += 2

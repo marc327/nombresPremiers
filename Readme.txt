@@ -17,14 +17,26 @@
 
 ----------------------------------------------------------
 ----------------------------------------------------------
---> stockage des nombres premiers de 2 à xxx
+--> stockage des nombres premiers de 2 à 999983
 --> date:		2016.10.16
 
 ----------------------------------------------------------
 ----------------------------------------------------------
---> test 2:		2016.mm.jj
---> algorythme nb premiers stockés (--> 1000)
---> temps de calcul:	sss
+--> test 2:		2016.10.19
+--> algorythme avec nb premiers stockés (2 --> 997)
+--> temps de calcul:	1.6388437747955322	--> amélioration d'un facteur 500!!
+
+--> test 2.1:		2016.10.19
+--> algorythme avec nb premiers stockés (2 --> 9973)
+--> temps de calcul:	0.1969599723815918	--> amélioration d'un facteur 4400!!
+
+--> test 2.2:		2016.10.19
+--> algorythme avec nb premiers stockés (2 --> 99991)
+--> temps de calcul:	0.014628887176513672	--> amélioration d'un facteur 59600!!
+
+--> test 2.3:		2016.10.19
+--> algorythme avec nb premiers stockés (2 --> 999983)
+--> temps de calcul:	0.03659653663635254	--> amélioration d'un facteur 23800!!
 
 ----------------------------------------------------------
 ----------------------------------------------------------
